@@ -1,4 +1,4 @@
-export class StringUtils {
+class StringUtils {
     static ifPresentOrElse(text, replaceSymbol) {
         return ObjectUtils.isExist(text) ? text : replaceSymbol;
     }
@@ -7,3 +7,5 @@ export class StringUtils {
         return text.replace(/(\/|:|,)/g, '');
     }
 }
+
+export default StringUtils;

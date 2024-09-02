@@ -1,4 +1,4 @@
-import StringUtils from './strUtils';
+import StringUtils from './strUtils.js';
 
 class NumberUtils {
     /**
